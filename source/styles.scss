@@ -1,0 +1,22 @@
+.initial-avatar {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background-color: #000000;
+  display: inline-block;
+  box-sizing: border-box;
+
+  div {
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: inherit;
+    font-weight: inherit;
+  }
+}
