@@ -5,5 +5,5 @@
  *  @license  MIT License
  */
 
-export {default as avatar} from './avatar';
+export {default} from './avatar';
 export type {InitialsAvatarProps} from './avatar';
