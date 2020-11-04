@@ -24,7 +24,7 @@ const InitialsAvatar: React.FC<InitialsAvatarProps> = ({name, className}) => {
       <div
         aria-label={name}
         role="img"
-        className={className || 'initial-avatar'}
+        className={className || 'initials-avatar'}
       >
         <div>{getInitials(name)}</div>
       </div>
